@@ -1,5 +1,5 @@
 # Scores
-scoreboard players set @s mask_block 44
+scoreboard players set @s paint_block 44
 
 # Mensagem
 
