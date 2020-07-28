@@ -12,8 +12,8 @@ execute @s [tag=mask_sand] ~ ~ ~ title @s actionbar §a§lBrush small grass - ma
 
 # COM MÁSCARA *********************
 
-execute @s [scores={paint_block=1}, scores={mask_block=0] ~ ~ ~ function _processes/_brushes/_call/on
+execute @s [scores=!{mask_block=0] ~ ~ ~ function _processes/_brushes/_call/_mask_on
 
 # SEM MÁSCARA *********************
 
-execute @s [scores={paint_block=1}, scores={mask_block=0] ~ ~ ~ function _processes/_brushes/_call/_mask_off
+execute @s [scores={mask_block=0] ~ ~ ~ function _processes/_brushes/_call/_mask_off
