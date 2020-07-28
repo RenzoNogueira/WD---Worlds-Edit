@@ -2,8 +2,8 @@
 
 # Scores
 scoreboard objectives add edit dummy EDIT
-scoreboard objectives paint_block edit dummy PAINT_BLOCK
-scoreboard objectives mask_block edit dummy MASK_BLOCK
+scoreboard objectives paint_block dummy PAINT_BLOCK
+scoreboard objectives mask_block dummy MASK_BLOCK
 
 # Boas Vindas
 title @s [tag=!started_world_edit] title §2World Edit
