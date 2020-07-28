@@ -1,189 +1,719 @@
-o none
-1 grass
-2 dirt
+1 air
+2 stone
 3 stone
-4 sand
-5 air
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
-138
-139
-140
-141
-142
-143
-144
-145
-146
-147
-148
-149
-150
-151
-152
-153
-154
-155
-156
-157
-158
-159
-160
-161
-162
-163
-164
-165
-166
-167
-168
-169
-170
-171
-172
-173
-174
-175
-176
-177
-178
-179
-180
-181
-182
-183
-184
-185
-186
-187
-188
+4 stone
+5 stone
+6 stone
+7 stone
+8 stone
+9 grass
+10 dirt
+11 dirt
+12 dirt
+13 cobblestone
+14 planks
+15 planks
+16 planks
+17 planks
+18 planks
+19 planks
+20 sapling
+21 sapling
+22 sapling
+23 sapling
+24 sapling
+25 sapling
+26 bedrock
+27 flowing_water
+28 water
+29 flowing_lava
+30 lava
+31 sand
+32 sand
+33 gravel
+34 gold_ore
+35 iron_ore
+36 coal_ore
+37 log
+38 log
+39 log
+40 log
+41 leaves
+42 leaves
+43 leaves
+44 leaves
+45 sponge
+46 sponge
+47 glass
+48 lapis_ore
+49 lapis_block
+50 dispenser
+51 sandstone
+52 sandstone
+53 sandstone
+54 noteblock
+55 bed
+56 golden_rail
+57 detector_rail
+58 sticky_piston
+59 web
+60 tallgrass
+61 tallgrass
+62 tallgrass
+63 deadbush
+64 piston
+65 piston_head
+66 wool
+67 wool
+68 wool
+69 wool
+70 wool
+71 wool
+72 wool
+73 wool
+74 wool
+75 wool
+76 wool
+77 wool
+78 wool
+79 wool
+80 wool
+81 wool
+82 yellow_flower
+83 red_flower
+84 red_flower
+85 red_flower
+86 red_flower
+87 red_flower
+88 red_flower
+89 red_flower
+90 red_flower
+91 red_flower
+92 brown_mushroom
+93 red_mushroom
+94 gold_block
+95 iron_block
+96 double_stone_slab
+97 double_stone_slab
+98 double_stone_slab
+99 double_stone_slab
+100 double_stone_slab
+101 double_stone_slab
+102 double_stone_slab
+103 double_stone_slab
+104 stone_slab
+105 stone_slab
+106 stone_slab
+107 stone_slab
+108 stone_slab
+109 stone_slab
+110 stone_slab
+111 stone_slab
+112 brick_block
+113 tnt
+114 bookshelf
+115 mossy_cobblestone
+116 obsidian
+117 torch
+118 fire
+119 mob_spawner
+120 oak_stairs
+121 chest
+122 redstone_wire
+123 diamond_ore
+124 diamond_block
+125 crafting_table
+126 wheat
+127 farmland
+128 furnace
+129 lit_furnace
+130 standing_sign
+131 wooden_door
+132 ladder
+133 rail
+134 stone_stairs
+135 wall_sign
+136 lever
+137 stone_pressure_plate
+138 iron_door
+139 wooden_pressure_plate
+140 redstone_ore
+141 lit_redstone_ore
+142 unlit_redstone_torch
+143 redstone_torch
+144 stone_button
+145 snow_layer
+146 ice
+147 snow
+148 cactus
+149 clay
+150 reeds
+151 jukebox
+152 fence
+153 pumpkin
+154 netherrack
+155 soul_sand
+156 glowstone
+157 portal
+158 lit_pumpkin
+159 cake
+160 unpowered_repeater
+161 powered_repeater
+162 stained_glass
+163 stained_glass
+164 stained_glass
+165 stained_glass
+166 stained_glass
+167 stained_glass
+168 stained_glass
+169 stained_glass
+170 stained_glass
+171 stained_glass
+172 stained_glass
+173 stained_glass
+174 stained_glass
+175 stained_glass
+176 stained_glass
+177 stained_glass
+178 trapdoor
+179 monster_egg
+180 monster_egg
+181 monster_egg
+182 monster_egg
+183 monster_egg
+184 monster_egg
+185 stonebrick
+186 stonebrick
+187 stonebrick
+188 stonebrick
+189 brown_mushroom_block
+190 red_mushroom_block
+191 iron_bars
+192 glass_pane
+193 melon_block
+194 pumpkin_stem
+195 melon_stem
+196 vine
+197 fence_gate
+198 brick_stairs
+199 stone_brick_stairs
+200 mycelium
+201 waterlily
+202 nether_brick
+203 nether_brick_fence
+204 nether_brick_stairs
+205 nether_wart
+206 enchanting_table
+207 brewing_stand
+208 cauldron
+209 end_portal
+210 end_portal_frame
+211 end_stone
+212 dragon_egg
+213 redstone_lamp
+214 lit_redstone_lamp
+215 double_wooden_slab
+216 double_wooden_slab
+217 double_wooden_slab
+218 double_wooden_slab
+219 double_wooden_slab
+220 double_wooden_slab
+221 wooden_slab
+222 wooden_slab
+223 wooden_slab
+224 wooden_slab
+225 wooden_slab
+226 wooden_slab
+227 cocoa
+228 sandstone_stairs
+229 emerald_ore
+230 ender_chest
+231 tripwire_hook
+232 tripwire_hook
+233 emerald_block
+234 spruce_stairs
+235 birch_stairs
+236 jungle_stairs
+237 command_block
+238 beacon
+239 cobblestone_wall
+240 cobblestone_wall
+241 flower_pot
+242 carrots
+243 potatoes
+244 wooden_button
+245 skull
+246 anvil
+247 trapped_chest
+248 light_weighted_pressure_plate
+249 heavy_weighted_pressure_plate
+250 unpowered_comparator
+251 powered_comparator
+252 daylight_detector
+253 redstone_block
+254 quartz_ore
+255 hopper
+256 quartz_block
+257 quartz_block
+258 quartz_block
+259 quartz_stairs
+260 activator_rail
+261 dropper
+262 stained_hardened_clay
+263 stained_hardened_clay
+264 stained_hardened_clay
+265 stained_hardened_clay
+266 stained_hardened_clay
+267 stained_hardened_clay
+268 stained_hardened_clay
+269 stained_hardened_clay
+270 stained_hardened_clay
+271 stained_hardened_clay
+272 stained_hardened_clay
+273 stained_hardened_clay
+274 stained_hardened_clay
+275 stained_hardened_clay
+276 stained_hardened_clay
+277 stained_hardened_clay
+278 stained_glass_pane
+279 stained_glass_pane
+280 stained_glass_pane
+281 stained_glass_pane
+282 stained_glass_pane
+283 stained_glass_pane
+284 stained_glass_pane
+285 stained_glass_pane
+286 stained_glass_pane
+287 stained_glass_pane
+288 stained_glass_pane
+289 stained_glass_pane
+290 stained_glass_pane
+291 stained_glass_pane
+292 stained_glass_pane
+293 stained_glass_pane
+294 leaves2
+295 leaves2
+296 log2
+297 log2
+298 acacia_stairs
+299 dark_oak_stairs
+300 slime
+301 barrier
+302 iron_trapdoor
+303 prismarine
+304 prismarine
+305 prismarine
+306 sea_lantern
+307 hay_block
+308 carpet
+309 carpet
+310 carpet
+311 carpet
+312 carpet
+313 carpet
+314 carpet
+315 carpet
+316 carpet
+317 carpet
+318 carpet
+319 carpet
+320 carpet
+321 carpet
+322 carpet
+323 carpet
+324 hardened_clay
+325 coal_block
+326 packed_ice
+327 double_plant
+328 double_plant
+329 double_plant
+330 double_plant
+331 double_plant
+332 double_plant
+333 standing_banner
+334 wall_banner
+335 daylight_detector_inverted
+336 red_sandstone
+337 red_sandstone
+338 red_sandstone
+339 red_sandstone_stairs
+340 double_stone_slab2
+341 stone_slab2
+342 spruce_fence_gate
+343 birch_fence_gate
+344 jungle_fence_gate
+345 dark_oak_fence_gate
+346 acacia_fence_gate
+347 spruce_fence
+348 birch_fence
+349 jungle_fence
+350 dark_oak_fence
+351 acacia_fence
+352 spruce_door
+353 birch_door
+354 jungle_door
+355 acacia_door
+356 dark_oak_door
+357 end_rod
+358 chorus_plant
+359 chorus_flower
+360 purpur_block
+361 purpur_pillar
+362 purpur_stairs
+363 purpur_double_slab
+364 purpur_slab
+365 end_bricks
+366 beetroots
+367 grass_path
+368 end_gateway
+369 repeating_command_block
+370 chain_command_block
+371 frosted_ice
+372 magma
+373 nether_wart_block
+374 red_nether_brick
+375 bone_block
+376 structure_void
+377 observer
+378 white_shulker_box
+379 orange_shulker_box
+380 magenta_shulker_box
+381 light_blue_shulker_box
+382 yellow_shulker_box
+383 lime_shulker_box
+384 pink_shulker_box
+385 gray_shulker_box
+386 silver_shulker_box
+387 cyan_shulker_box
+388 purple_shulker_box
+389 blue_shulker_box
+390 brown_shulker_box
+391 green_shulker_box
+392 red_shulker_box
+393 black_shulker_box
+394 white_glazed_terracotta
+395 orange_glazed_terracotta
+396 magenta_glazed_terracotta
+397 light_blue_glazed_terracotta
+398 yellow_glazed_terracotta
+399 lime_glazed_terracotta
+400 pink_glazed_terracotta
+401 gray_glazed_terracotta
+402 light_gray_glazed_terracotta
+403 cyan_glazed_terracotta
+404 purple_glazed_terracotta
+405 blue_glazed_terracotta
+406 brown_glazed_terracotta
+407 green_glazed_terracotta
+408 red_glazed_terracotta
+409 black_glazed_terracotta
+410 concrete
+411 concrete
+412 concrete
+413 concrete
+414 concrete
+415 concrete
+416 concrete
+417 concrete
+418 concrete
+419 concrete
+420 concrete
+421 concrete
+422 concrete
+423 concrete
+424 concrete
+425 concrete
+426 concrete_powder
+427 concrete_powder
+428 concrete_powder
+429 concrete_powder
+430 concrete_powder
+431 concrete_powder
+432 concrete_powder
+433 concrete_powder
+434 concrete_powder
+435 concrete_powder
+436 concrete_powder
+437 concrete_powder
+438 concrete_powder
+439 concrete_powder
+440 concrete_powder
+441 concrete_powder
+442 structure_block
+443 iron_shovel
+444 iron_pickaxe
+445 iron_axe
+446 flint_and_steel
+447 apple
+448 bow
+449 arrow
+450 coal
+451 coal
+452 diamond
+453 iron_ingot
+454 gold_ingot
+455 iron_sword
+456 wooden_sword
+457 wooden_shovel
+458 wooden_pickaxe
+459 wooden_axe
+460 stone_sword
+461 stone_shovel
+462 stone_pickaxe
+463 stone_axe
+464 diamond_sword
+465 diamond_shovel
+466 diamond_pickaxe
+467 diamond_axe
+468 stick
+469 bowl
+470 mushroom_stew
+471 golden_sword
+472 golden_shovel
+473 golden_pickaxe
+474 golden_axe
+475 string
+476 feather
+477 gunpowder
+478 wooden_hoe
+479 stone_hoe
+480 iron_hoe
+481 diamond_hoe
+482 golden_hoe
+483 wheat_seeds
+484 wheat
+485 bread
+486 leather_helmet
+487 leather_chestplate
+488 leather_leggings
+489 leather_boots
+490 chainmail_helmet
+491 chainmail_chestplate
+492 chainmail_leggings
+493 chainmail_boots
+494 iron_helmet
+495 iron_chestplate
+496 iron_leggings
+497 iron_boots
+498 diamond_helmet
+499 diamond_chestplate
+500 diamond_leggings
+501 diamond_boots
+502 golden_helmet
+503 golden_chestplate
+504 golden_leggings
+505 golden_boots
+506 flint
+507 porkchop
+508 cooked_porkchop
+509 painting
+510 golden_apple
+511 golden_apple
+512 sign
+513 wooden_door
+514 bucket
+515 water_bucket
+516 lava_bucket
+517 minecart
+518 saddle
+519 iron_door
+520 redstone
+521 snowball
+522 boat
+523 leather
+524 milk_bucket
+525 brick
+526 clay_ball
+527 reeds
+528 paper
+529 book
+530 slime_ball
+531 chest_minecart
+532 furnace_minecart
+533 egg
+534 compass
+535 fishing_rod
+536 clock
+537 glowstone_dust
+538 fish
+539 fish
+540 fish
+541 fish
+542 cooked_fish
+543 cooked_fish
+544 dye
+545 dye
+546 dye
+547 dye
+548 dye
+549 dye
+550 dye
+551 dye
+552 dye
+553 dye
+554 dye
+555 dye
+556 dye
+557 dye
+558 dye
+559 dye
+560 bone
+561 sugar
+562 cake
+563 bed
+564 repeater
+565 cookie
+566 filled_map
+567 shears
+568 melon
+569 pumpkin_seeds
+570 melon_seeds
+571 beef
+572 cooked_beef
+573 chicken
+574 cooked_chicken
+575 rotten_flesh
+576 ender_pearl
+577 blaze_rod
+578 ghast_tear
+579 gold_nugget
+580 nether_wart
+581 potion
+582 glass_bottle
+583 spider_eye
+584 fermented_spider_eye
+585 blaze_powder
+586 magma_cream
+587 brewing_stand
+588 cauldron
+589 ender_eye
+590 speckled_melon
+591 spawn_egg
+592 spawn_egg
+593 spawn_egg
+594 spawn_egg
+595 spawn_egg
+596 spawn_egg
+597 spawn_egg
+598 spawn_egg
+599 spawn_egg
+600 spawn_egg
+601 spawn_egg
+602 spawn_egg
+603 spawn_egg
+604 spawn_egg
+605 spawn_egg
+606 spawn_egg
+607 spawn_egg
+608 spawn_egg
+609 spawn_egg
+610 spawn_egg
+611 spawn_egg
+612 spawn_egg
+613 spawn_egg
+614 spawn_egg
+615 spawn_egg
+616 spawn_egg
+617 spawn_egg
+618 spawn_egg
+619 spawn_egg
+620 spawn_egg
+621 spawn_egg
+622 spawn_egg
+623 spawn_egg
+624 spawn_egg
+625 spawn_egg
+626 spawn_egg
+627 spawn_egg
+628 spawn_egg
+629 spawn_egg
+630 spawn_egg
+631 spawn_egg
+632 spawn_egg
+633 spawn_egg
+634 experience_bottle
+635 fire_charge
+636 writable_book
+637 written_book
+638 emerald
+639 item_frame
+640 flower_pot
+641 carrot
+642 potato
+643 baked_potato
+644 poisonous_potato
+645 map
+646 golden_carrot
+647 skull
+648 skull
+649 skull
+650 skull
+651 skull
+652 skull
+653 carrot_on_a_stick
+654 nether_star
+655 pumpkin_pie
+656 fireworks
+657 firework_charge
+658 enchanted_book
+659 comparator
+660 netherbrick
+661 quartz
+662 tnt_minecart
+663 hopper_minecart
+664 prismarine_shard
+665 prismarine_crystals
+666 rabbit
+667 cooked_rabbit
+668 rabbit_stew
+669 rabbit_foot
+670 rabbit_hide
+671 armor_stand
+672 iron_horse_armor
+673 golden_horse_armor
+674 diamond_horse_armor
+675 lead
+676 name_tag
+677 command_block_minecart
+678 mutton
+679 cooked_mutton
+680 banner
+681 end_crystal
+682 spruce_door
+683 birch_door
+684 jungle_door
+685 acacia_door
+686 dark_oak_door
+687 chorus_fruit
+688 popped_chorus_fruit
+689 beetroot
+690 beetroot_seeds
+691 beetroot_soup
+692 dragon_breath
+693 splash_potion
+694 spectral_arrow
+695 tipped_arrow
+696 lingering_potion
+697 shield
+698 elytra
+699 spruce_boat
+700 birch_boat
+701 jungle_boat
+702 acacia_boat
+703 dark_oak_boat
+704 totem_of_undying
+705 shulker_shell
+706 iron_nugget
+707 knowledge_book
+708 record_13
+709 record_cat
+710 record_blocks
+711 record_chirp
+712 record_far
+713 record_mall
+714 record_mellohi
+715 record_stal
+716 record_strad
+717 record_ward
+718 record_11
+719 record_wait
