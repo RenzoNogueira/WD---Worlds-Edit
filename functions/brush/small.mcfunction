@@ -3,11 +3,11 @@ scoreboard players set @s edit 20
 
 # COM MÁSCARA *********************
 
-execute @s ~ ~ ~ function _processes/_brushes/_small/_call/_mask_on
+execute @s ~ ~ ~ function _processes/_brushes/_small/_call/mask_on
 
 # SEM MÁSCARA *********************
 
-execute @s [scores={mask_block=0}] ~ ~ ~ function _processes/_brushes/_small/_call/_mask_off
+execute @s [scores={mask_block=0}] ~ ~ ~ function _processes/_brushes/_small/_call/mask_off
 
 # TÍTULO
 
